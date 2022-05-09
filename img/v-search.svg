@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 34" width="35" height="34">
+	<title>каталог строка</title>
+	<defs>
+		<image  width="35" height="34" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAiCAMAAADiW5DOAAAAAXNSR0IB2cksfwAAAihQTFRF+vr6xcXFvb29wsLC0NDQ3t7e4uLi19fXyMjIu7u7wsLCvr6+2NjY+vr67u7uxMTEyMjI19fXxcXF8PDw7e3t9vb24+Pjvr6+5OTk0NDQ3d3dwcHBvb29urq6tbW1v7+/urq6y8vL+fn58vLyxcXFzMzMwsLCycnJvr6+3Nzc7+/v1tbWycnJx8fHysrK2dnZ1NTU4eHh2NjY3NzcyMjI1tbW6+vrxcXFx8fH4ODg29vbx8fHzs7OxMTExcXFzc3N8PDwy8vL09PTx8fH0NDQw8PD39/fv7+/w8PDwsLC5OTktra2xMTEwMDA2dnZ9fX1yMjIyMjIwcHBysrKwsLC1NTUw8PDw8PDzMzMyMjI39/f0dHRzMzM9/f3zc3N0tLSxsbGx8fH19fXyMjI1tbW2NjY5eXl1NTUw8PDy8vLwcHBx8fH0tLS0dHR8/Pz6urqvr6+vb29vb29z8/PyMjIz8/PyMjIwsLCzMzMwMDAv7+/xsbG29vbx8fHzs7O5eXlzs7OxMTE0dHR7Ozsv7+/y8vL4+Pj6enp1dXVxsbGvr6+y8vL29vbv7+/wcHB19fXwcHB0tLSvr6+urq6uLi4vLy8urq6u7u7wMDAwsLC3d3dz8/PxcXFyMjIxcXF2NjY4uLix8fH0tLS2tra5+fnyMjI2NjYw8PD19fXwsLC09PT9PT0wsLC0NDQwcHBzs7O7+/vw8PDzMzMy8vL5ubmzs7Ox8fHzc3NRWrEWwAAALh0Uk5TAA6E0vH6/PflsEGT9//+1TAX3v7+//t6Fu36wWg3Lk2W6P//g9/HG3T5/lWUoTH28ggO+MdD/o+B+hS07dS6LP838mLuefsz1Jz8LM2h9/9I4ozmjApZsedu+hI8/23uyNYsvzMx/fVIAryrEHb//rU3d+3VWrCK7NTO4PjaZfx9WfD+sAT8/k0Gkur5xkMCpEE3dJedh1UOcPlBQ0sz9vtVMfj9ZTx2Q4ZU/5tkqXP/vIqY/V+tXJMl7eIAAAGuSURBVHichdP5O1VBGAfwETcp34scKiUce7JWtJBL2QnZJUpla7lZKlnjoqxZiyxJlChR0b9n5j4Xd+Zqen+Zeb/zec45z8wZQoxldcDaRnPQ9pDdYfKvOmIPU2kdHPcVTkeNy86KCxtcj+1Djp+gK24nT7mf9vD0UgFvH0vjS4mfv6kJCATOBInkLKAG77UhoUBYOE8izgHnzYMLkUAUby4Cly5zyRUgmjcxwFU+iVWgi+OSeKjXhC+8DiRwQSKckwSTDKRwQSqUNMGkAxlccAOZWYLJBm5yQQ6Qy5M8N6j5XFIAFPKmSEXxLS4p0eF2KZeUAXeEt98FNOVm/T1AuS+YBxVAZdVOV11DT/jhI8GQx08A/dNaNrWqq6ek4VnxcxG9UOhCZOPLpuYW9pO1trXD5ZWIOjqxW4au7h46vH4jot6+fi0D6sDgEHk77E2nmhERETI6Nj7x7v2kcT7FnvRh2hKZ1wy7J5pZOZr7SNH8Jzla+EzR4pIcfaEXBPqvcrTsSpHumxyt0EPC6nc5+mFge7YmRz/XGdqQo1+ZbAvkhvxW8WfzP4Zs2f8l20AyTo0GoGgZAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="каталог строка">
+		<use id="Слой 754" href="#img1" x="0" y="0" />
+	</g>
+</svg>

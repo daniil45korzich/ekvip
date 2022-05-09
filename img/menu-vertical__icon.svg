@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 21" width="35" height="21">
+	<title>каталог строка</title>
+	<defs>
+		<image  width="35" height="21" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAVBAMAAAA+1EraAAAAAXNSR0IB2cksfwAAAB5QTFRF+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr67FV94wAAAAp0Uk5T8Pf5//gtLgCYnCM1CEIAAABCSURBVHicY2AURAMMDMrGaECBwRldyIEBXcTYgCEsDQ0EMJSjgwIihTpnooEGbDYS5y4sZpHtLix+JM5dWEIVM+wBU+p3thCdC1EAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="каталог строка">
+		<use id="Слой 754 копия 2" href="#img1" x="0" y="0" />
+	</g>
+</svg>

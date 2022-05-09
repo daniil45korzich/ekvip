@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" width="26" height="24">
+	<title>шапка</title>
+	<defs>
+		<image  width="26" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAYCAMAAADTXB33AAAAAXNSR0IB2cksfwAAAHhQTFRF+vr6ubm5tbW1tra2t7e3wsLC+vr63NzcwcHB2trawMDA2dnZuLi4uLi4uLi4tra2uLi47Ozstra2ubm5tra20dHR5OTkwMDAxcXF2NjYxMTEuLi4tbW1uLi4tbW1tLS0w8PD3d3dxsbGtra2tLS0tbW1tbW1tra2iXxOIwAAACh0Uk5TAB5paU3w//7u/u7+0tfVRyz/xCa8/P/s8/3zNLY6q6/x/vXBfn55X1RMaKwAAACESURBVHicxdGxEoIwFETRBTUYBSSiQUVEBeH//9AFOmcLCh1T5M7LaZIJMK0gXIRLyLUyxkSa1iSraUPa/oXiJE12kjLHaS8p52AOX6Gj977QZJmTpjNzmUElX5dqunJ3laTbkPI3ZD+oduM17hweQMQ8kQ9nDdC+2o7/wPRAz1RAx+ANaAgPfUHrb0sAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="шапка">
+		<g id="сравнение">
+			<use id="Слой 762" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

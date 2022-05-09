@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 34" width="19" height="34">
+	<title>бренды</title>
+	<defs>
+		<image  width="19" height="34" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAiCAMAAACKqBL2AAAAAXNSR0IB2cksfwAAAJBQTFRFB28zF1k8CW41B28zD2c5CG40FV08FV08F1k8CG80FV08F1k8Flw8F1o8FVw8Flw8F1o8Flw8F1o8Fls8Fls8Fls8Flo8Flk8Fl08F1k8FV48FV08Fl48F1g8Fl09F109F1k8F108F109F1w9F1s9Fls8F1s9F1s9F1s9Fls8GFo9Flw8GFs9GFo9CW40D2g50OrqfQAAADB0Uk5TAG7///b/trpz/7OArYarpoqjjJmcnpOEsH2+ubZis6h2q6aZlpaTkIyhgKiAef/3CzU4aQAAAJtJREFUeJxt0tkOglAMBNBqVS4iiAiKK+778v9/5yQ+dUofT5q0nVTEVqerPaa+6sBTZCnEqkNLCWhkKQVlnsaWclWdWCpAU0tlOxWWKtDMU2IpA809BUs1aGFJsP1SvEVsK9U4MK6BG8ZtW2eD0TvGPTBlPPhT/pgzHn1aIifgmfECLBmvwIrxBrwzPhDIk/EFrBnf/j+AH/3+AJBFB1EgwX6zAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="бренды">
+		<use id="Слой 781" href="#img1" x="0" y="0" />
+	</g>
+</svg>

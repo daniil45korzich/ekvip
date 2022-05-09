@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" width="26" height="26">
+	<title>футер</title>
+	<defs>
+		<image  width="26" height="26" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IB2cksfwAABYdJREFUeJyNVntMU2cUP/vDJXslmmXL1DknKmDB4XM8FJSHRDdFDZpZQaDlrRbKmxYLlPY++kZaCVZbBERm5qYD42Obisoe+JpvlEwMwziZixiXuZgNzr57q52lF7HJSZN7v3t+5zu/3+98H1StsoBmtQXq5dtBEWOC/DAdlETqQRljBGeO/dUtSwwLldFG1aY5zKGsIPpGxky6Pz2QvpcZRHflBLNH88NYtWalZXF+KP16bggNlctNkBvCQG3WTjjd0ArHtu/nA4SASqP0ULLYEKeINn6XEUg/ls6gME1EY1oAjQTEHakiin9GwJ9snE2fIkBr1StMr7wUUMEC3Tu5wWwjSTAo8aO8kgsFt4YPETVUGKH/Qh7KjK/NHgkobzsoY80+2UHMD+lc9QIJU8nOpP5aPtICKGFQ8q3UX3NhW+YO0fdNbXDcvp8PN1Bjgf09eaj+J4mf1uND0hY+ccLkcpT4qjF9Jl85Jk2pwA1TKjFdYMcp07VYHGm6olm1dTL7mRV066wAlSvMPFD5MtMeiT/lBZLko8asWQw2Vrbi+W+u4c1zvXj9x1vY3nIG2cR6AlaB0hlaLzAu16Y5dGtVnHlMxadmgMPGBjBvsIk3TNV4LiYgydOqsHCxBbvP9qDQ78nfT7B12wmyTu3VSo4zrtXmJFuGQ74T4KC1+c2yWHNH8nTPqlw8aPFyexefdPDfQTze3IlbM1vQqTyAfTfvugHtRfsw8cMK7xb6ajF/oeHi59qmcWArcsZK/bT/DFcX1399coM7WfveM7huYhmK31fh2neVWLbMhgP3HvLvLp/s5gTAFzd8VxJf7ZCjzBkPeWGsPlXkTShXYf2WVvzzwV/44LeHaJQ04vpJKsIbwydM8qnAq6e6eaDbl/swezZLkmq8uSIWUcYY7EC29i1nSC8pE2XJgo2oWGLDoqgazApi3DyIJ6pQudTq3tHPx64Tpal5TgTzzGc7IXsW0zWSKbnKOaI5UXCS5gTCtbQkpgZvX7nDgwwNDmJ1RrMgR8/al/kRfQuIhH8dzfnPt7NyZR3+3vuHm7svTUd5iacHChv4afQB8ciNlxkznJFzQw1495d+HuDxo8foVOzHhA9UpGXePnp+R6TtPSAP07cLceRpXIYkLCeJD7i2MTTEg6ybUDbqLOTeZ89mzsPmuZRFSHXDJ0TCpHI84ujgcQb6H3If4/BxJcgz2URJpG4XaFdbVvDza4Qh+Tw/B2pO4P07A3i1o5u0gxVUmZePiLwN4ur1YJfVvZ23wHButOq49wURZrQX7EMlMetwcwp/Q6E8VNdVk2obD5YEC1QsM2S/qH2cFyR+Guxsu8i3rvtcD2/Q0biV+FJIxVcXW9NsACcvnIGOS2fH5EdWt0p9havkpnPaDA32XOp9ytEAykKMI3PETf1pGiyNMp9uVjS+1lTUQKb3V4fh6NdHQJdoCx2xHTO5AalB1fJabKs9ibTYQaqtemGbN8/V9bXpdgfsVe2GFuVuAKdsB+wiY9wgrtGnPK2QvyMMky2nvJTpVbxvkqa+CIQfOb12mSPikKmFgDTBHkUTwLaMHWBLs4syg5hHUn8XQE6w7lpGIDMqB548ulS2eQ59ok5mD3Tk18NB/Z7/gaj4GigIN9i584iciD2qpYYUdZxlfHEEmyqbT18jR/UQl+TZjccjRK7DzeV+ursoQr+pdBH7FgGCnXKnJxC5ly0i5rtPFtUVhjMTtKuMwB29ZTEsWJOr3yB3vDW5wYwj52O2k6y7RQbkPZK0n/zf3jiXOUtuTbvoNVYxtdoyVhmth+JwFgSBlLHGjaqlprWmxK3kqsWAJs4FpIzmgfjLZOUnBvLcMrYwXO8jm0cH5IUwgbJ51NTSGP04Nt4CBAgIECiiRgb6D3eSkntObbhKAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="футер">
+		<g id="Группа 3 копия">
+			<use id="Слой 780" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

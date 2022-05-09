@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="23" height="23">
+	<title>футер</title>
+	<defs>
+		<image  width="23" height="23" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAAXNSR0IB2cksfwAABQVJREFUeJyNVmtQlGUUPmOZNdMPabDScSrjDhGiDsZNXRAvgNxCBANUQC7GxQJBbiJXF1QwFCEUGAGtRi46shdY2F1YltuysNwRyGCWNMAfWdNMRLSd88VOyk1/nPn2+773e57zPuc5511omJKCcKoFKpQcuDiUD8n92fClPA6CZNHg3Ra+07ctImGvyJNnJnB4aMy3fWxau3/CusG13a05ID+sK9E9tueCZrQiHTxagiF14ApUKrkgQryGX5oBFoOn4YLwrsRP7cRedxDod50aK5Uux1plyN2j+oRnozLisVT6nF0qHY6VSg+vtiKPTkziBAakD+YuD34XwXNHiiFUHu9nWrtvhj6mIEBjni1zXRxEpIPEukhi3+hTfq7vssa9Sf5S8Ac/C+CMIi0cM/ybsqUPzeocpp/PeqUwwtCusVTtFn4uQvANTdPt/4ETsPRpJ+SN3TpkwN0zp8thgP9xbfZPCpTFfIQ7SdddIFuNwBjj4xpzlXdb2PcIvEbwRALAfyKG6km+JhZpTLvGgtkmAuZEKVLAB3UUT7VicWOKtB5YMACr74DFECT2XQzgPhYCVE3yIKLrXLwWPjRA7czrnZQFY2UbcoYL4cLgNaBFZeOV71vXuw7oIfFq4BQ6HEuVjcij9/ZE9XuQOXRdkyV0V5AcFA5NvuJ7k7VQpeQzDrozUQ1Zw/kb9wjd5Xrcl4NT9qQ/WtoLsobyWFiwOUN8SNZiCQ/3l49XvV786AcowSj7qeJdJGzUrrF6KbBaewL3bAkpIU+Hqi1nyGWRM/7MHMxzEE+3QlL/Zfiq67yjFtbiVYDVQX1gVe/aDb7tERnEpH5Bv/eLj7ZJZjrWS2baoWC0VNNF4ifeUvPZK4OTNFtr9ynhpOxM9uLM6P5oa2j5+f7stWws6qXhgo1OkuOiLVj059eRjJTl8vLYPgFP6alEPY7VEmYiwHlxExvrrYTeLECSTY5NxyVkNXpPzYX2HbKsdxnV4bzYB9R0O+rsf4QzPak+upylTUILCMCr5VRhjCL9tfjeTEgbzEWCY7SDeYdGX1lsL1snWHb2Aw9pUDHJqcag72xFRySQM3zD1IRv96s+d/cKs8OKCG5G4w6ie9Jx8n3zjk9bhFvWUP4mIvRvj4SiR99BZHdKmj5317xaVnzOpgZZ59Lsx13JEYaMBAxBYZg8cS0NNz8EzMYmC5UnQGhnHGBHwrWRkvUWAielNocxxyz6fDeUj1dCykCOM2Y5a8hbfkCRRLQDZ4nfLQTViOxOZsBx9sDpriSg+4COqNPGXJs5SvKQ5Nh99mDeG5AxeBXd8K3R9toDzwxWmX5GCzuwEXpIQ2Rn7a+OlKwJwayx4BpHpMHJmMBfNE238u3+QHeZFYyVAmZeRduLWVzxlYKKhTabxXHQbSfyrDMXOI0aYL1o7qDmqrM9GWF3lQ/g9kQVwPXR0jddJf6CxZqvRmS0MCoYnyMwESL4/ElZdDxqz0hdNl4BJMs2PHmeEavBwkK1c+j381IZLyKgBqI1OwWOE4GyaJ+4HjZkPyz8HxyLEb/5/g5m0bbaA0/x7Gx0kpxgo4/DDzZ680z4e3/TXThHtZh5b6lSS2hZ7zzgLg3MSOq/9CEGRClSXwR3kwbcQJCir7uTv8BDwiRKkfZ2hDwRcBICNs+6kM7Y7fjc363ZPx3/CRQclgbl+HdERh1rjziIh8lm6t74XjYk9GUtAf8XypBZdPwUUh0AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="футер">
+		<g id="Группа 3 копия">
+			<use id="Слой 779" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

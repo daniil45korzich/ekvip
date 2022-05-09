@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 22" width="17" height="22">
+	<title>шапка</title>
+	<defs>
+		<image  width="17" height="22" id="img1" href="data:image/png;base64,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"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="шапка">
+		<use id="Слой 748" href="#img1" x="0" y="0" />
+	</g>
+</svg>

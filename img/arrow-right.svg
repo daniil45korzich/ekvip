@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 34" width="18" height="34">
+	<title>бренды</title>
+	<defs>
+		<image  width="18" height="34" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAiCAMAAABlannIAAAAAXNSR0IB2cksfwAAAT5QTFRFF2NBB28zEmc9MEpTB28zKVRPFGY+MEpTNEdXJ1ZOF2RBMElTM0hWJlZNGWJCMElTM0hWJldNG2BEMElTMklWJFlMHF9GMUpTMkhVI1pLH11IMUpUMkpVIlpKIVtJMklUMUpVIVtKI1pLMUlUMUpUI1pLMkhVMUpUHl5HJFhMMkhVMUpTG2BEJldNMkhVMEpTGmFEKFVPM0hWMEpTKFVOMElUFmRANEhXL0tTKVNQLFBRDGs4CW41LE9RDWs4MEpUE2Y+KFRPMEhTF2RBKFVONEhYMEpTGWJDJldOM0lXMUpTG2BFJ1dONEhWMElTM0pWMUhUM0lWMUlUMkpWMUlVJFlMIFxIMkpVJVhMHV9GMUpUMUtVJ1VOMUpUNEhXKFVPGGNCMUpUKFVPFWU/MUtUKlNQE2Y9MUtUEmc8MExUBl8kowAAAGp0Uk5T/f/+YgDd/lIP5v5GF+j9PyDr/EQq7/tCMPH4Nzf09jM39fMtQvIzP/nuKk/76iJE/OUaVOVL/gxm2L7//7n/Wf7fNf3kDz/96Bc3++kdQio1MDM6LfH4P+76RE7lVBXj/U/g/lvW/mD/bpSYS2YAAADvSURBVHicXdBnIwJgFIbh984TIVtREpUZhZC9R8jee8///wf08T2dj9encz/OEaiROReE2jpLoXpoaDSkcBM0txhSaxu0dxhSZwSiXYbUHYN4jyEleiHZZ0j9KUhnDGkgDoNDhjQ8AqNZQxobh1zekCYmYapgSNMOZsKGNFuE4JwhzQdgwZIWl1iuopXValpbhw1Dm1uwvePTbgn29v0nDspweOS/ehyFyIkfdFqZInbmZ58nIXUhjzLpiiTk0eUVXN/Io+wt3N3Lo3wOyg/yqPAIpSd59PwCr29ehAu9w8enX+q+4PvHzOGK/P4Z0T9+lR+YjJ7/egAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="бренды">
+		<use id="Слой 781 копия" href="#img1" x="0" y="0" />
+	</g>
+</svg>

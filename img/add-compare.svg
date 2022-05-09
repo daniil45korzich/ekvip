@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" width="17" height="17">
+	<title>новинки</title>
+	<defs>
+		<image  width="17" height="17" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAAAXNSR0IB2cksfwAAAGlQTFRFm8KswNLIs8+/ocaxnMOtm8KsocWxsc6+v9HHt9HCnMKttNDAr869rMy6t9LD////s8/AwtTKncOuvdDFrs27n8SvnsSvoMWwrcy6v9HHvdHFtdDAsc++qcq3s9DAvtHGr828rcy7vtLHYXo3/QAAACN0Uk5TAG74//////l97//0+/3uAPVm/4b7/////HeV8/n+9o37/Jx0zWGnAAAAg0lEQVR4nF2Q6xaCIBCEJ1mkvERSZGpl9f4PKXsWNJkfwH7smT2zQNChUKSpNEdEnUiLqlpAoze1DM7yttJ4AboqEif3FYXekxvKjHjEOWR9nAf+3hQq7iHn3N2qcBL39MmHko/JnB8YMjIC0448OUb7l+slUd8rMGkd86cP+/HfHxcLaCoILIDfHj4AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="новинки">
+		<g id="Группа 2">
+			<use id="Слой 765" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>
