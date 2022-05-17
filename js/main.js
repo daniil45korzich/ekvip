@@ -21,4 +21,10 @@ window.addEventListener("load", function () {
             swiper: swiperProduct,
         },
     });
+    var bannerMain = new Swiper(".banner-swiper", {
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
 });

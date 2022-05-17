@@ -163,6 +163,16 @@ body {
   right: -12px;
   top: 2px;
 }
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 25px;
+  height: 25px;
+  background: #ffffff;
+  opacity: 1;
+  border: 3px solid #540b7c;
+}
+.swiper-pagination-bullets .swiper-pagination-bullet-active {
+  background: #540b7c;
+}
 /* header */
 .header {
   padding-bottom: 30px;
@@ -1242,4 +1252,18 @@ footer {
   padding-left: 30px;
   text-align: left;
   justify-content: start;
+}
+/* bg text */
+.text-bg {
+  padding: 70px 0px;
+  background-size: cover;
+  background: url('../img/bg-text.jpg') no-repeat;
+}
+.text-bg__title,
+.text-bg__info,
+.text-bg__btn {
+  color: #fff;
+}
+.text-bg__btn {
+  border-color: #fff;
 }
