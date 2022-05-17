@@ -20,66 +20,75 @@
 
 </head>
 <body>
-<header>
-    <div class="header">
-        <div class="header__top header-top">
-            <div class="container">
-                <div class="header-top__item header-top__item--city h-t-item">
-                    <div class="h-t-item__icon">
-                        <img src="img/location-icon.svg">
+    <header>
+        <div class="header">
+            <div class="header__top header-top">
+                <div class="container">
+                    <div class="header-top__item header-top__item--city h-t-item">
+                        <div class="h-t-item__icon">
+                            <img src="img/location-icon.svg">
+                        </div>
+                        <div class="h-t-item__name">Ростов-на-Дону</div>
                     </div>
-                    <div class="h-t-item__name">Ростов-на-Дону</div>
+                    <div class="header-top__item header-top__item--menu">
+                        <nav>
+                            <ul>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Сервис</a></li>
+                                <li><a href="#">Доставка и оплата</a></li>
+                                <li><a href="#">Лизинг</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header-top__item header-top__item--social">
+                        <a href="#"><img src="img/vk.png"></a>
+                        <a href="#"><img src="img/insta.png"></a>
+                        <a href="#"><img src="img/tg.png"></a>
+                        <a href="#"><img src="img/fb.png"></a>
+                    </div>
                 </div>
-                <div class="header-top__item header-top__item--menu">
-                    <nav>
-                        <ul>
-                            <li><a href="#">О компании</a></li>
-                            <li><a href="#">Сервис</a></li>
-                            <li><a href="#">Доставка и оплата</a></li>
-                            <li><a href="#">Лизинг</a></li>
-                            <li><a href="#">Контакты</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="header-top__item header-top__item--social">
-                    <a href="#"><img src="img/vk.png"></a>
-                    <a href="#"><img src="img/insta.png"></a>
-                    <a href="#"><img src="img/tg.png"></a>
-                    <a href="#"><img src="img/fb.png"></a>
+            </div>
+            <div class="header__bottom header-bottom">
+                <div class="container">
+                    <div class="header-bottom__item header-bottom__item--logo h-b-item">
+                        <a href="/"><img src="img/logo.png"></a>
+                        <div class="h-b-item__credo">
+                            Продажа и ремонт сервисного
+                            оборудования с доставкой по РФ
+                        </div>
+                    </div>
+                    <div class="header-bottom__item header-bottom__item--contact h-b-item">
+                        <div class="h-b-item__phone"><span>+ 7 (863)</span> 221-24-14</div>
+                        <div class="h-b-item__phone"><span>+ 7 (903)</span> 401-24-14</div>
+                        <div class="h-b-item__whatsapp"><img src="img/whatsapp.svg"><span>Напишите нам в <a href="#">WhatsApp</a></span></div>
+                    </div>
+                    <div class="header-bottom__item header-bottom__item--cart">
+                        <div class="header-cart">
+                            <div class="header-cart__compare">
+                                <img src="img/icon-compare.svg">
+                                <span>2</span>
+                            </div>
+                            <div class="header-cart__products">
+                                <img src="img/icon-basket.svg">
+                                <span>20 позиций на 234 789 040 ₽</span>
+                            </div>
+                        </div>
+                        <div class="h-link-order">
+                            <img src="img/question.svg"><span>Что с моим заказом?</span>
+                            <div class="h-link-order__form w-order-form">
+                                <form>
+                                    <div class="w-order-form__title">Введите номер заказа</div>
+                                    <input type="text" class="w-order-form__input">
+                                    <button class="w-order-form__btn">Узнать</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="header__bottom header-bottom">
-            <div class="container">
-                <div class="header-bottom__item header-bottom__item--logo h-b-item">
-                    <a href="/"><img src="img/logo.png"></a>
-                    <div class="h-b-item__credo">
-                        Продажа и ремонт сервисного
-                        оборудования с доставкой по РФ
-                    </div>
-                </div>
-                <div class="header-bottom__item header-bottom__item--contact h-b-item">
-                    <div class="h-b-item__phone"><span>+ 7 (863)</span> 221-24-14</div>
-                    <div class="h-b-item__phone"><span>+ 7 (903)</span> 401-24-14</div>
-                    <div class="h-b-item__whatsapp"><img src="img/whatsapp.svg"><span>Напишите нам в <a href="#">WhatsApp</a></span></div>
-                </div>
-                <div class="header-bottom__item header-bottom__item--cart">
-                    <div class="header-cart">
-                        <div class="header-cart__compare">
-                            <img src="img/icon-compare.svg">
-                            <span>2</span>
-                        </div>
-                        <div class="header-cart__products">
-                            <img src="img/icon-basket.svg">
-                            <span>20 позиций на 234 789 040 ₽</span>
-                        </div>
-                    </div>
-                    <a href="#" class="h-link-order"><img src="img/question.svg"><span>Что с моим заказом?</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+    </header>
 
 <section class="menu-vertical">
     <div class="container">
@@ -95,6 +104,46 @@
             <div class="menu-vertical__search v-search">
                 <input type="text" autocomplete="off" placeholder="Поиск товара" class="v-search__input">
                 <button class="v-search__btn"><img src="img/v-search.svg"></button>
+
+                <div class="search-modal">
+                    <div class="search-modal__item">
+                        <a href="#">
+                            <img src="img/product-img.jpg">
+                            <span>Сканер диагностический Launch X-431 PRO Lite 2017</span>
+                        </a>
+                    </div>
+                    <div class="search-modal__item">
+                        <a href="#">
+                            <img src="img/product-img.jpg">
+                            <span>Сканер диагностический Launch X-431 PRO Lite 2017</span>
+                        </a>
+                    </div>
+                    <div class="search-modal__item">
+                        <a href="#">
+                            <img src="img/product-img.jpg">
+                            <span>Сканер диагностический Launch X-431 PRO Lite 2017</span>
+                        </a>
+                    </div>
+                    <div class="search-modal__item">
+                        <a href="#">
+                            <img src="img/product-img.jpg">
+                            <span>Сканер диагностический Launch X-431 PRO Lite 2017</span>
+                        </a>
+                    </div>
+                    <div class="search-modal__item">
+                        <a href="#">
+                            <img src="img/product-img.jpg">
+                            <span>Сканер диагностический Launch X-431 PRO Lite 2017</span>
+                        </a>
+                    </div>
+                    <div class="search-modal__item">
+                        <a href="#">
+                            <img src="img/product-img.jpg">
+                            <span>Сканер диагностический Launch X-431 PRO Lite 2017</span>
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
