@@ -74,7 +74,16 @@
                             <span>20 позиций на 234 789 040 ₽</span>
                         </div>
                     </div>
-                    <a href="#" class="h-link-order"><img src="img/question.svg"><span>Что с моим заказом?</span></a>
+                    <div class="h-link-order">
+                        <img src="img/question.svg"><span>Что с моим заказом?</span>
+                        <div class="h-link-order__form w-order-form">
+                            <form>
+                                <div class="w-order-form__title">Введите номер заказа</div>
+                                <input type="text" class="w-order-form__input">
+                                <button class="w-order-form__btn">Узнать</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -95,6 +104,46 @@
             <div class="menu-vertical__search v-search">
                 <input type="text" autocomplete="off" placeholder="Поиск товара" class="v-search__input">
                 <button class="v-search__btn"><img src="img/v-search.svg"></button>
+
+                <div class="search-modal">
+                    <div class="search-modal__item">
+                        <a href="#">
+                            <img src="img/product-img.jpg">
+                            <span>Сканер диагностический Launch X-431 PRO Lite 2017</span>
+                        </a>
+                    </div>
+                    <div class="search-modal__item">
+                        <a href="#">
+                            <img src="img/product-img.jpg">
+                            <span>Сканер диагностический Launch X-431 PRO Lite 2017</span>
+                        </a>
+                    </div>
+                    <div class="search-modal__item">
+                        <a href="#">
+                            <img src="img/product-img.jpg">
+                            <span>Сканер диагностический Launch X-431 PRO Lite 2017</span>
+                        </a>
+                    </div>
+                    <div class="search-modal__item">
+                        <a href="#">
+                            <img src="img/product-img.jpg">
+                            <span>Сканер диагностический Launch X-431 PRO Lite 2017</span>
+                        </a>
+                    </div>
+                    <div class="search-modal__item">
+                        <a href="#">
+                            <img src="img/product-img.jpg">
+                            <span>Сканер диагностический Launch X-431 PRO Lite 2017</span>
+                        </a>
+                    </div>
+                    <div class="search-modal__item">
+                        <a href="#">
+                            <img src="img/product-img.jpg">
+                            <span>Сканер диагностический Launch X-431 PRO Lite 2017</span>
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -168,6 +217,14 @@
                 <div class="w-product__btn w-product-btn">
                     <button type="submit" class="add-basket">В корзину</button>
                     <button type="submit" class="add-sale">Получить скидку</button>
+                    
+                        <div class="h-link-order__form w-add-sale">
+                            <form>
+                                <input type="text" class="w-add-sale__input" placeholder="Ващ телефоне">
+                                <input type="text" class="w-add-sale__input" placeholder="Ваш e-mail">
+                                <button class="w-add-sale__btn">Получить</button>
+                            </form>
+                        </div>
                 </div>
                 <div class="w-product__linker">Товар доступен для приобретения в <a href="#">лизинг</a> или <a href="#">кредит</a></div>
                 <div class="w-product__file product-file">
