@@ -72,3 +72,55 @@ window.addEventListener("load", function () {
         toggleMenu();
     });
 });
+
+window.addEventListener("load", function () {
+    let catGrid = document.querySelector('.t-view__grid');
+    let catList = document.querySelector('.t-view__list');
+    let productGrid = document.querySelector('.page-products-grid');
+    let productList = document.querySelector('.page-products-list');
+    
+    const catListActive = () => {
+        fadeOut(productList);
+        fadeIn(productGrid);
+    }
+
+    const catGridActive = () => {
+        fadeIn(productList);
+        fadeOut(productGrid);
+    }
+
+    function fadeIn(el, display) {
+        el.style.opacity = 0;
+        el.style.display = display || "grid";
+        (function fade() {
+            var val = parseFloat(el.style.opacity);
+            if (!((val += .1) > 1)) {
+                el.style.opacity = val;
+                requestAnimationFrame(fade);
+            }
+        })();
+    };
+    
+    function fadeOut(el) {
+        el.style.opacity = 1;
+        (function fade() {
+            if ((el.style.opacity -= .1) < 0.1) {
+                el.style.display = "none";
+            } else {
+                requestAnimationFrame(fade);
+            }
+        })();
+    };
+
+    catList.addEventListener('click', e => {
+        e.stopPropagation();
+
+        catGridActive();
+    });
+
+    catGrid.addEventListener('click', e => {
+        e.stopPropagation();
+
+        catListActive();
+    });
+});
