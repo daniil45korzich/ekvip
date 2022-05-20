@@ -1502,9 +1502,12 @@ footer{
   }
 
   .w-slidebar{
-    border:1px solid #d7d7d7;
-    border-radius: 3px;
     height: fit-content;
+
+    nav{
+      border:1px solid #d7d7d7;
+      border-radius: 3px;
+    }
 
     .s-list{
       list-style: none;
@@ -1636,7 +1639,7 @@ footer{
 
   &__title,
   &__info,
-  &__btn  
+  &__btn
   {
     color: #fff;
   }
@@ -1815,7 +1818,7 @@ footer{
   &__item{
     margin-right: 20px;
     font-size: 14px;
-    
+
     a{
       color: #000;
       font-size: 14px;
@@ -1867,4 +1870,96 @@ footer{
 .t-view__list
 {
   cursor: pointer;
+}
+
+.s-filter{
+  .ui-slider-handle{
+    border-radius: 50%;
+    border:none !important;
+    background: #bababa !important;
+    width:12px !important;
+    height:12px !important;
+    top: -4px !important;
+    cursor: pointer;
+    outline: none !important;
+  }
+  .ui-widget-header {
+    background: #f60006 !important;
+  }
+
+
+  background: #f2f2f2;
+  border-radius: 5px;
+  padding:20px 20px 40px;
+  margin-bottom: 50px;
+
+  &__name{
+    font-size: 16px;
+    &:not(:first-child){
+      margin-top:25px;
+      margin-bottom: 12px;
+    }
+  }
+
+  &__btns{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  &__refresh{
+    margin-left: 30px;
+    color: #211919;
+    font-size:14px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+  }
+
+  .s-filter-check{
+    &__item{
+      display: flex;
+      align-items: center;
+
+      &:not(:last-child){
+        margin-bottom: 15px;
+      }
+
+      label{
+        margin-left:25px;
+        border-bottom:1px solid;
+      }
+    }
+  }
+
+  &__labels{
+    display: flex;
+    margin-top: 15px;
+
+    span{
+      margin-right: 5px;
+
+      &:not(:first-child){
+        margin-left: 5px;
+      }
+    }
+
+    input{
+      width: 85px;
+      height:28px;
+      border-radius: 5px;
+      border:1px solid #999999;
+      font-size: 14px;
+      outline: none;
+
+      &::placeholder{
+        color: #959595;
+        font-size:14px;
+      }
+    }
+  }
+}
+
+#slider-range{
+  margin-top: 20px;
+  height: 8px;
 }
