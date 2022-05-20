@@ -167,8 +167,41 @@
                     <div class="w-slidebar__filter s-filter">
                         <div class="s-filter__name">Цена (руб.)</div>
                         <div class="s-filter__label">
-                            
+							<div id="slider-range" class="s-filter__range"></div>
+							<div class="s-filter__labels">
+								<span>от</span>
+								<input class="banner-filter__min" value="600000">
+								<span>до</span>
+								<input class="banner-filter__max" value="6000000">
+							</div>
                         </div>
+						<div class="s-filter__name">Бренд (производитель)</div>
+						<div class="s-filter__chechker s-filter-check">
+							<div class="s-filter-check__item">
+								<input id="check1" type="checkbox" name="name" class="s-filter-check__chechbox">
+								<label for="check1">GrunBaum</label>
+							</div>
+							<div class="s-filter-check__item">
+								<input id="check1" type="checkbox" name="name" class="s-filter-check__chechbox">
+								<label for="check1">GrunBaum</label>
+							</div>
+							<div class="s-filter-check__item">
+								<input id="check1" type="checkbox" name="name" class="s-filter-check__chechbox">
+								<label for="check1">GrunBaum</label>
+							</div>
+							<div class="s-filter-check__item">
+								<input id="check1" type="checkbox" name="name" class="s-filter-check__chechbox">
+								<label for="check1">GrunBaum</label>
+							</div>
+							<div class="s-filter-check__item">
+								<input id="check1" type="checkbox" name="name" class="s-filter-check__chechbox">
+								<label for="check1">GrunBaum</label>
+							</div>
+						</div>
+						<div class="s-filter__btns">
+							<button class="s-filter__btn btn-main">Подобрать</button>
+							<a href="#" class="s-filter__refresh">Сброс</a>
+						</div>
                     </div>
 
 					<nav>
@@ -533,21 +566,31 @@
 <script src='js/jquery.ui.touch-punch.min.js' id='touch-ui-script-js'></script>
 
 <script>
-    /*$(document).ready(function() {
-        $( "#slider-range" ).slider({
-            range: true,
-            min: 0,
-            max: 6500000,
-            values: [ 600000, 6000000 ],
-            slide: function( event, ui ) {
-                $('.banner-filter__min').text(ui.values[ 0 ] + ' руб.');
-                $('.banner-filter__max').text(ui.values[ 1 ] + ' руб.');
-            }
-        });
+	$(document).ready(function () {
 
-        $('.banner-filter__min').text($( "#slider-range" ).slider( "values", 0 ) + ' руб.');
-        $('.banner-filter__max').text($( "#slider-range" ).slider( "values", 1 ) + ' руб.');
-    });*/
+		let priceMin = document.querySelector('.banner-filter__min');
+		let priceMax = document.querySelector('.banner-filter__max');
+		if (priceMin !== null && priceMax !== null) {
+			priceMin = (priceMin.value).replace(' СЂСѓР±.', '');
+			priceMax = (priceMax.value).replace(' СЂСѓР±.', '');
+		}
+		let SliderRange = document.getElementById("slider-range");
+		if (SliderRange !== null) {
+			$("#slider-range").slider({
+				range: true,
+				min: 0,
+				max: 6500000,
+				values: [priceMin, priceMax],
+				slide: function (event, ui) {
+					$('.banner-filter__min').val(ui.values[0]);
+					$('.banner-filter__max').val(ui.values[1]);
+				}
+			});
+
+			$('.banner-filter__min').val($("#slider-range").slider("values", 0));
+			$('.banner-filter__max').val($("#slider-range").slider("values", 1));
+		}
+	});
 </script>
 </body>
 </html>
