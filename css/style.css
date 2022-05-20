@@ -1564,6 +1564,7 @@ footer {
 }
 .s-filter__labels {
   display: flex;
+  align-items: center;
   margin-top: 15px;
 }
 .s-filter__labels span {
