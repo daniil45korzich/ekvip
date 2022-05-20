@@ -170,9 +170,9 @@
 							<div id="slider-range" class="s-filter__range"></div>
 							<div class="s-filter__labels">
 								<span>от</span>
-								<input class="banner-filter__min" value="600000">
+								<input class="banner-filter__min" value="89">
 								<span>до</span>
-								<input class="banner-filter__max" value="6000000">
+								<input class="banner-filter__max" value="2500">
 							</div>
                         </div>
 						<div class="s-filter__name">Бренд (производитель)</div>
@@ -571,15 +571,15 @@
 		let priceMin = document.querySelector('.banner-filter__min');
 		let priceMax = document.querySelector('.banner-filter__max');
 		if (priceMin !== null && priceMax !== null) {
-			priceMin = (priceMin.value).replace(' СЂСѓР±.', '');
-			priceMax = (priceMax.value).replace(' СЂСѓР±.', '');
+			priceMin = (priceMin.value);
+			priceMax = (priceMax.value);
 		}
 		let SliderRange = document.getElementById("slider-range");
 		if (SliderRange !== null) {
 			$("#slider-range").slider({
 				range: true,
 				min: 0,
-				max: 6500000,
+				max: 6500,
 				values: [priceMin, priceMax],
 				slide: function (event, ui) {
 					$('.banner-filter__min').val(ui.values[0]);
