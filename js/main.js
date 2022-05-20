@@ -5,6 +5,17 @@ window.addEventListener("load", function () {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
+        breakpoints: {
+            320: {
+                slidesPerView: 2,
+            },
+            991: {
+                slidesPerView: 3,
+            },
+            1280: {
+                slidesPerView: 5,
+            }
+        }
     });
 
     var swiperProduct = new Swiper(".mySwiper", {
@@ -78,7 +89,7 @@ window.addEventListener("load", function () {
     let catList = document.querySelector('.t-view__list');
     let productGrid = document.querySelector('.page-products-grid');
     let productList = document.querySelector('.page-products-list');
-    
+
     const catListActive = () => {
         fadeOut(productList);
         fadeIn(productGrid);
@@ -100,7 +111,7 @@ window.addEventListener("load", function () {
             }
         })();
     };
-    
+
     function fadeOut(el) {
         el.style.opacity = 1;
         (function fade() {
