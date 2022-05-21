@@ -179,7 +179,7 @@
                     <input type="text" name="comment" placeholder="Комментарий (необязательно)"  class="input-default" autocomplete="off">
                 </div>
 
-                <div class="input-default-wrap input-default-wrap--center">
+                <div class="input-default-wrap input-default-wrap--center cheker-style">
                     <input id="term-input" type="checkbox" type="text" name="term" class="default-checkbox">
                     <label for="term-input">Я согласен на обработку <a href="#">персональных данных</a><span>*</span></label>
                 </div>
@@ -322,11 +322,21 @@
                 <div class="t-checkout__total">Итоговая сумма:</div>
                 <div class="t-checkout__price">190 162 771 Р</div>
                 <div class="t-checkout__column">
-                    <div class="t-checkout__checkbox"><input type="checkbox"><label>Купить в лизинг</label></div>
-                    <div class="t-checkout__checkbox"><input type="checkbox"><label>Купить в кредит</label></div>
+                    <div class="t-checkout__checkbox"><input type="checkbox" id="liz"><label for="liz">Купить в лизинг</label></div>
+                    <div class="t-checkout__checkbox"><input type="checkbox" id="credit"><label for="credit">Купить в кредит</label></div>
                 </div>
-                <button class="t-checkout__submit" type="submit">Подтвердить заказ</button>
-                <button class="t-checkout__sale" type="submit">Получить скидку</button>
+                <div class="checker">
+                    <button class="t-checkout__submit" type="submit">Подтвердить заказ</button>
+                    <button class="t-checkout__sale add-sale" type="submit">Получить скидку</button>
+
+                    <div class="h-link-order__form w-add-sale">
+                        <form>
+                            <input type="text" class="w-add-sale__input" placeholder="Ващ телефоне">
+                            <input type="text" class="w-add-sale__input" placeholder="Ваш e-mail">
+                            <button class="w-add-sale__btn">Получить</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
