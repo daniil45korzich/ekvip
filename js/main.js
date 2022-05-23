@@ -186,4 +186,24 @@ window.addEventListener("load", function () {
             }
         })
     }
+
+    /* tabs */
+    let ProductLinks = document.querySelectorAll(".w-description-l__item");
+    let ProductPanels = document.querySelectorAll(".w-description-c__item");
+    for (let el of ProductLinks) {
+        el.addEventListener("click", e => {
+            e.preventDefault();
+            if (document.querySelector(".w-description-l__item.active")) {
+                document.querySelector(".w-description-l__item.active").classList.remove("active");
+            }
+            if (document.querySelector(".w-description-c__item.active")) {
+                document.querySelector(".w-description-c__item.active").classList.remove("active");
+            }
+            //const parentListItem = el.parentElement;
+            el.classList.add("active");
+            var index = [...el.parentElement.children].indexOf(el);
+            var panel = [...ProductPanels].filter(el => el.getAttribute("data-index") == index);
+            panel[0].classList.add("active");
+        });
+    }
 });
