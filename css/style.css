@@ -603,7 +603,7 @@ body {
   font-family: OpenSansBold;
   border-bottom: 1px solid #fff;
 }
-.menu-vertical .menu-vertical-nav__name.active + .menu-vertical-nav__list {
+.menu-vertical .menu-vertical-nav.active .menu-vertical-nav__list {
   display: block;
 }
 .menu-vertical__search {
