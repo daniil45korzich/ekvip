@@ -11,6 +11,9 @@
   font-style: normal;
   font-display: swap;
 }
+.n-products__item--list{
+  width: 100% !important;
+}
 
 /* mobile menu style */
 .menu-mob{
@@ -257,6 +260,7 @@ body{
 }
 
 .btn-more{
+  cursor: pointer;
   height: 40px;
   padding: 18px 0px;
   border:1px solid #994bc3;
@@ -635,6 +639,7 @@ body{
 }
 
 .menu-vertical{
+  position: relative;
   padding: 50px 0px;
 
   &__wrapper{
@@ -657,6 +662,7 @@ body{
   }
 
   .menu-vertical-nav{
+    position: relative;
     justify-content: center;
 
     &__icon{
@@ -667,14 +673,43 @@ body{
       }
     }
 
+
+    &__list{
+      display: none;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      top: 55px;
+      left: 0;
+      width: 300px;
+      background: #fff;
+      box-shadow: -2px 3px 8px 0px rgba(0,0,0,0.14);
+      border-bottom: 1px solid #ced8db;
+      z-index: 50;
+      li{
+        a{
+          text-decoration: none;
+          font-size:14px;
+          color: #333;
+          display: block;
+          border: 1px solid #ced8db;
+          border-bottom: none;
+          padding: 7px 20px 7px 30px;
+          position: relative;
+          font-weight: bold;
+        }
+      }
+    }
+
     &__name{
       font-size: 20px;
       font-family: OpenSansBold;
       border-bottom: 1px solid #fff;
-    }
 
-    &__list{
-      display: none;
+      &.active  + .menu-vertical-nav__list{
+        display: block;
+      }
     }
   }
 
@@ -953,6 +988,14 @@ body{
 
   &__info{
     margin-top: 55px;
+    max-height: 335px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+    &.active{
+      max-height: 100%;
+    }
   }
 }
 
@@ -2048,9 +2091,14 @@ footer{
   }
 }
 
+.page-products-list{
+  grid-template-columns: 1fr;
+}
+
 .new__products.page-products.page-products-list{
   grid-template-columns: 1fr;
 }
+
 
 .t-view__grid,
 .t-view__list
@@ -2316,7 +2364,16 @@ footer{
   }
 
   .header__bottom .header-bottom__item--contact{
-    display: none;
+    order:3;
+    margin: 20px auto 0px;
+  }
+
+  .header-bottom .header-bottom__item--logo{
+    order:1;
+  }
+
+  .header-bottom .header-bottom__item--cart{
+    order:2;
   }
 
   .header-bottom__item--logo{
@@ -2345,6 +2402,7 @@ footer{
 
   .header__bottom .container{
     align-items: center;
+    flex-wrap: wrap;
   }
 
   .header__bottom .header-bottom__item--cart .header-cart__products img{
@@ -2439,7 +2497,7 @@ footer{
   }
 
   .new .title-wrapper__view.t-view{
-    display: none;
+    margin-top: 15px;
   }
 
   .new .title-wrapper__title{
@@ -2474,6 +2532,7 @@ footer{
 
   .menu__btn {
     display: flex;
+    margin-left:10px;
   }
 
   .flex-helper{
