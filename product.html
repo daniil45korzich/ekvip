@@ -73,6 +73,11 @@
                             <img src="img/icon-basket.svg">
                             <span>20 позиций на 234 789 040 ₽</span>
                         </div>
+                        <div class="menu__btn">
+                            <span class="menu__btn-line"></span>
+                            <span class="menu__btn-line"></span>
+                            <span class="menu__btn-line"></span>
+                        </div>
                     </div>
                     <div class="h-link-order">
                         <img src="img/question.svg"><span>Что с моим заказом?</span>
@@ -90,6 +95,16 @@
     </div>
 </header>
 
+<div class="header__menu menu-mob" >
+    <ul class="menu-mob__list">
+        <li class="menu-item__item"><a href="" class="menu-mob__link">О компании</a></li>
+        <li class="menu-item__item"><a href="" class="menu-mob__link">Сервис</a></li>
+        <li class="menu-item__item"><a href="" class="menu-mob__link">Доставка и оплата</a></li>
+        <li class="menu-item__item"><a href="" class="menu-mob__link">Лизинг</a></li>
+        <li class="menu-item__item"><a href="" class="menu-mob__link">Контакты</a></li>
+    </ul>
+</div>
+
 <section class="menu-vertical">
     <div class="container">
         <div class="menu-vertical__wrapper">
@@ -97,6 +112,14 @@
                 <div class="menu-vertical-nav__icon"><img src="img/menu-vertical__icon.svg"></div>
                 <div class="menu-vertical-nav__name">Каталог</div>
                 <ul class="menu-vertical-nav__list">
+                    <li><a href="#">Пункт 1</a></li>
+                    <li><a href="#">Пункт 2</a></li>
+                    <li><a href="#">Пункт 1</a></li>
+                    <li><a href="#">Пункт 2</a></li>
+                    <li><a href="#">Пункт 1</a></li>
+                    <li><a href="#">Пункт 2</a></li>
+                    <li><a href="#">Пункт 1</a></li>
+                    <li><a href="#">Пункт 2</a></li>
                     <li><a href="#">Пункт 1</a></li>
                     <li><a href="#">Пункт 2</a></li>
                 </ul>
@@ -328,7 +351,8 @@
                 <span class="t-view__list"><img src="img/view-list.png"></span>
             </div>
         </div>
-        <div class="new__products n-products">
+        <div class="new__products n-products  page-products-grid">
+
             <div class="cart-product n-products__item">
                 <div class="cart-product__img">
                     <img src="img/product-1.png">
@@ -342,9 +366,9 @@
                     <a href="#" class="btn-secondary">Подробнее</a>
                 </div>
                 <div class="cart-product__compare">
-                        <span>
-                            <img src="img/add-compare.svg">
-                        </span>
+                                        <span>
+                                            <img src="img/add-compare.svg">
+                                        </span>
                     <a href="#">Добавить к сравнению</a>
                 </div>
             </div>
@@ -362,7 +386,7 @@
                     <a href="#" class="btn-secondary">Подробнее</a>
                 </div>
                 <div class="cart-product__compare">
-                        <span>
+                                        <span>
                             <img src="img/add-compare.svg">
                         </span>
                     <a href="#">Добавить к сравнению</a>
@@ -381,7 +405,7 @@
                     <a href="#" class="btn-secondary">Подробнее</a>
                 </div>
                 <div class="cart-product__compare">
-                        <span>
+                                        <span>
                             <img src="img/add-compare.svg">
                         </span>
                     <a href="#">Добавить к сравнению</a>
@@ -400,26 +424,116 @@
                     <a href="#" class="btn-secondary">Подробнее</a>
                 </div>
                 <div class="cart-product__compare">
-                        <span>
+                                        <span>
                             <img src="img/add-compare.svg">
                         </span>
                     <a href="#">Добавить к сравнению</a>
                 </div>
             </div>
         </div>
-    </div>
-</section>
 
-<section class="map">
-    <div class="container">
-        <div class="text-default map__info">
-            <p>Мы поставляем оборудование для автосервиса с 1998 года в РФ и страны СНГ. Предоставляем гарантийное обслуживание до 24 месяцев. У нас самый большой ассортимент оборудования для автосервиса. С нами работают крупные дилерские компании по всей России и странах СНГ.
-                Если у вас автосервис или вы являетесь дилером, то компания Мастер-Инструмент поможет подобрать нужное оборудование, доставит его быстро, благодаря налаженной работе службы доставки.
-            </p><p>
-            В нашем интернет-магазине больше 12000 товаров для автосервиса. Продаем гаражное оборудование, оборудование для грузового автосервиса и мотосервиса, шиномонтажное оборудование, компрессоры, окрасочное оборудование, кузовное, диагностическое, подъемное, пневматическое и гидравлическое оборудование.
-        </p>
+        <div class="new__products n-products  page-products-list" style="display:none;">
+            <div class="cart-product n-products__item n-products__item--list">
+                <div class="flex-helper">
+                    <div class="cart-product__img">
+                        <img src="img/product-1.png">
+                    </div>
+                    <div>
+                        <div class="cart-product__text">ДОМКРАТ ПОДКАТНОЙ ГИДРАВЛИЧЕСКИЙ,г/п 3.0 т, высота 135-500 мм. OPT-8040</div>
+                        <div class="cart-product__compare">
+                                                <span>
+                                                    <img src="img/add-compare.svg">
+                                                </span>
+                            <a href="#">Добавить к сравнению</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap-price">
+                        <div class="cart-product__price">16 973 руб.</div>
+                    </div>
+                    <div class="cart-product__btn">
+                        <a href="#" class="btn-main">В корзину</a>
+                        <a href="#" class="btn-secondary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-product n-products__item n-products__item--list">
+                <div class="flex-helper">
+                    <div class="cart-product__img">
+                        <img src="img/product-1.png">
+                    </div>
+                    <div>
+                        <div class="cart-product__text">ДОМКРАТ ПОДКАТНОЙ ГИДРАВЛИЧЕСКИЙ,г/п 3.0 т, высота 135-500 мм. OPT-8040</div>
+                        <div class="cart-product__compare">
+                                                <span>
+                                                    <img src="img/add-compare.svg">
+                                                </span>
+                            <a href="#">Добавить к сравнению</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap-price">
+                        <div class="cart-product__price">16 973 руб.</div>
+                    </div>
+                    <div class="cart-product__btn">
+                        <a href="#" class="btn-main">В корзину</a>
+                        <a href="#" class="btn-secondary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-product n-products__item n-products__item--list">
+                <div class="flex-helper">
+                    <div class="cart-product__img">
+                        <img src="img/product-1.png">
+                    </div>
+                    <div>
+                        <div class="cart-product__text">ДОМКРАТ ПОДКАТНОЙ ГИДРАВЛИЧЕСКИЙ,г/п 3.0 т, высота 135-500 мм. OPT-8040</div>
+                        <div class="cart-product__compare">
+                                                <span>
+                                                    <img src="img/add-compare.svg">
+                                                </span>
+                            <a href="#">Добавить к сравнению</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap-price">
+                        <div class="cart-product__price">16 973 руб.</div>
+                    </div>
+                    <div class="cart-product__btn">
+                        <a href="#" class="btn-main">В корзину</a>
+                        <a href="#" class="btn-secondary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-product n-products__item n-products__item--list">
+                <div class="flex-helper">
+                    <div class="cart-product__img">
+                        <img src="img/product-1.png">
+                    </div>
+                    <div>
+                        <div class="cart-product__text">ДОМКРАТ ПОДКАТНОЙ ГИДРАВЛИЧЕСКИЙ,г/п 3.0 т, высота 135-500 мм. OPT-8040</div>
+                        <div class="cart-product__compare">
+                                                <span>
+                                                    <img src="img/add-compare.svg">
+                                                </span>
+                            <a href="#">Добавить к сравнению</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrap-price">
+                        <div class="cart-product__price">16 973 руб.</div>
+                    </div>
+                    <div class="cart-product__btn">
+                        <a href="#" class="btn-main">В корзину</a>
+                        <a href="#" class="btn-secondary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <a href="#" class="map__btn btn-more">Подробнее</a>
     </div>
 </section>
 
@@ -478,5 +592,18 @@
         </div>
     </div>
 </footer>
+<style>
+    .page-products-grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    @media screen and (max-width: 1280px) {
+        .page-products-grid{
+            grid-template-columns: 1fr;
+        }
+        .cart-product{
+            margin:auto;
+        }
+    }
+</style>
 </body>
 </html>
