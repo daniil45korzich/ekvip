@@ -102,11 +102,13 @@ window.addEventListener("load", function () {
         hamburger2.classList.toggle('active');
     }
 
-    hamburger2.addEventListener('click', e => {
-        e.stopPropagation();
+    if (hamburger2 !== null) {
+        hamburger2.addEventListener('click', e => {
+            e.stopPropagation();
 
-        toggleMenu();
-    });
+            toggleMenu();
+        });
+    }
 });
 
 window.addEventListener("load", function () {
@@ -118,11 +120,15 @@ window.addEventListener("load", function () {
     const catListActive = () => {
         fadeOut(productList);
         fadeIn(productGrid);
+        catGrid.childNodes[0].src='img/view-grid.png';
+        catList.childNodes[0].src='img/view-list.png';
     }
 
     const catGridActive = () => {
         fadeIn(productList);
         fadeOut(productGrid);
+        catGrid.childNodes[0].src='img/view-grid-noactive.png';
+        catList.childNodes[0].src='img/view-list-active.png';
     }
 
     function fadeIn(el, display) {
@@ -148,16 +154,39 @@ window.addEventListener("load", function () {
         })();
     };
 
-    catList.addEventListener('click', e => {
-        e.stopPropagation();
+    if (catList !== null) {
+        catList.addEventListener('click', e => {
+            e.stopPropagation();
 
-        catGridActive();
-    });
 
-    catGrid.addEventListener('click', e => {
-        e.stopPropagation();
+            catGridActive();
+        });
+    }
 
-        catListActive();
+    if (catGrid !== null) {
+        catGrid.addEventListener('click', e => {
+            e.stopPropagation();
+
+            catListActive();
+        });
+    }
+
+
+    let mapBtn = document.querySelector(".map__btn");
+    let mapInfo = document.querySelector(".map__info");
+
+    if (mapBtn !== null) {
+        mapBtn.addEventListener("click", function () {
+            this.textContent = this.textContent === 'Подробнее' ? 'Скрыть' : 'Подробнее';
+            mapInfo.classList.toggle('active');
+        });
+    }
+
+
+    let menuVerticalNavName = document.querySelector(".menu-vertical-nav__name");
+
+    menuVerticalNavName.addEventListener("click", function () {
+        this.classList.toggle('active');
     });
 });
 
@@ -171,20 +200,11 @@ window.addEventListener("load", function () {
             if (HeaderMobBtn.classList.contains("menu__btn_active")) {
                 HeaderMobBtn.classList.remove("menu__btn_active");
                 fadeOut(MenuMob);
-                fadeOut(MenuOverlay)
             } else {
                 HeaderMobBtn.classList.add("menu__btn_active");
                 fadeIn(MenuMob);
-                fadeIn(MenuOverlay)
             }
         });
-        MenuOverlay.addEventListener("click", function () {
-            if (HeaderMobBtn.classList.contains("menu__btn_active")) {
-                HeaderMobBtn.classList.remove("menu__btn_active");
-                fadeOut(MenuMob);
-                fadeOut(MenuOverlay)
-            }
-        })
     }
 
     /* tabs */
