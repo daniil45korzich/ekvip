@@ -183,7 +183,7 @@ window.addEventListener("load", function () {
     }
 
 
-    let menuVerticalNavName = document.querySelector(".menu-vertical-nav__name");
+    let menuVerticalNavName = document.querySelector(".menu-vertical-nav");
 
     menuVerticalNavName.addEventListener("click", function () {
         this.classList.toggle('active');
