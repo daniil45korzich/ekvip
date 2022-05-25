@@ -227,3 +227,32 @@ window.addEventListener("load", function () {
         });
     }
 });
+
+/* form */
+window.addEventListener("load", function () {
+    let Fade = document.querySelector(".overlay");
+    let Modal = document.querySelector(".form-l");
+    let ModalClose = document.querySelector(".form-l__close");
+    let btnOpen = document.querySelector(".h-b-item__call");
+
+    if (btnOpen !== null) {
+        btnOpen.addEventListener("click", function (e) {
+            fadeIn(Fade);
+            fadeIn(Modal);
+        });
+    }
+
+    if (ModalClose !== null) {
+        ModalClose.addEventListener("click", function (e) {
+            fadeOut(Fade);
+            fadeOut(Modal);
+        });
+    }
+
+    if (Fade !== null) {
+        Fade.addEventListener("click", function (e) {
+            fadeOut(Fade);
+            fadeOut(Modal);
+        });
+    }
+});
