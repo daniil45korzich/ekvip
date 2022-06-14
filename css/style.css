@@ -415,6 +415,10 @@ body {
   font-size: 20px;
   font-family: OpenSansBold;
   margin-bottom: 5px;
+  text-decoration: none;
+  display: block;
+  color: inherit;
+  text-align: center;
 }
 .header__bottom .h-b-item__phone span {
   color: #076f33;
@@ -909,6 +913,10 @@ footer {
   font-size: 20px;
   font-family: OpenSansBold;
   margin-bottom: 5px;
+  text-decoration: none;
+  display: block;
+  color: inherit;
+  text-align: center;
 }
 .footer .f-top .f-t--item__phone span {
   color: #076f33;
