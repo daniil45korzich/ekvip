@@ -256,3 +256,157 @@ window.addEventListener("load", function () {
         });
     }
 });
+
+/* banner main zone */
+window.addEventListener("load", function () {
+    let classOkrasochnojeOborudovanje = document.querySelector(".class-okrasochnoje-oborudovanje");
+    let classStepenRazvalShozhdenja = document.querySelector(".class-stepen-razval-shozhdenja");
+    let classGruzovojeOborudovanje = document.querySelector(".class-gruzovoje-oborudovanje");
+    let classPodjemnojeIGudroOborud = document.querySelector(".class-podjemnoje-i-gudro-oborud");
+    let classSpecInstrument = document.querySelector(".class-spec-instrument");
+    let classCompressory = document.querySelector(".class-compressory");
+    let classZapravkaKondicioner = document.querySelector(".class-zapravka-kondicioner");
+    let classObshegarazhnojeOborud = document.querySelector(".class-obshegarazhnoje-oborud");
+    let classMebel = document.querySelector(".class-mebel");
+    let classShirokomontazhnojeOborud = document.querySelector(".class-shirokomontazhnoje-oborud");
+    let classDiagnostichOborud = document.querySelector(".class-diagnostich-oborud");
+
+    // HOVER EFFECT FUNCTIONS
+    const с1 = document.querySelector(".fillPolEffect");
+    classOkrasochnojeOborudovanje.addEventListener("mouseover", function( event ) {
+        с1.setAttribute("points", "10058.31,7779.41 14217.68,5363.42 10426.04,3543.1 6023.26,5968.46");
+        с1.setAttribute("fill", "#DFB9EB");
+    }, false);
+    classOkrasochnojeOborudovanje.addEventListener("mouseout", function( event ) {
+        с1.setAttribute("fill", "#c9c9c9");
+    }, false);
+
+    classShirokomontazhnojeOborud.addEventListener("mouseover", function( event ) {
+        с1.setAttribute("fill", "#DFB9EB");
+        с1.setAttribute("points", "7809.65,12249.8 10597.57,10504 5752.09,7995.86 2825.96,9676.59");
+    }, false);
+    classShirokomontazhnojeOborud.addEventListener("mouseout", function( event ) {
+        с1.setAttribute("fill", "#c9c9c9");
+    }, false);
+
+    classStepenRazvalShozhdenja.addEventListener("mouseover", function( event ) {
+        с1.setAttribute("fill", "#DFB9EB");
+        с1.setAttribute("points", "14284.16,8651.49 16331.84,7368.76 13483.44,6000.39 11415.57,7239.46");
+    }, false);
+    classStepenRazvalShozhdenja.addEventListener("mouseout", function( event ) {
+        с1.setAttribute("fill", "#c9c9c9");
+    }, false);
+
+    classSpecInstrument.addEventListener("mouseover", function( event ) {
+        с1.setAttribute("fill", "#DFB9EB");
+        с1.setAttribute("points", "5544.4,8021 7529.48,6787.53 5619.69,5933.57 3696.38,7074.69");
+    }, false);
+    classSpecInstrument.addEventListener("mouseout", function( event ) {
+        с1.setAttribute("fill", "#c9c9c9");
+    }, false);
+
+    classPodjemnojeIGudroOborud.addEventListener("mouseover", function( event ) {
+        с1.setAttribute("fill", "#DFB9EB");
+        с1.setAttribute("points", "16728.94,9638.58 19694.83,7908.21 17225.21,6769.4 14170.24,8570.89");
+    }, false);
+    classPodjemnojeIGudroOborud.addEventListener("mouseout", function( event ) {
+        с1.setAttribute("fill", "#c9c9c9");
+    }, false);
+
+    classObshegarazhnojeOborud.addEventListener("mouseover", function( event ) {
+        с1.setAttribute("fill", "#DFB9EB");
+        с1.setAttribute("points", "13629.92,11475.04 16595.81,9744.67 14126.19,8605.86 11071.22,10407.35");
+    }, false);
+    classObshegarazhnojeOborud.addEventListener("mouseout", function( event ) {
+        с1.setAttribute("fill", "#c9c9c9");
+    }, false);
+
+    classMebel.addEventListener("mouseover", function( event ) {
+        с1.setAttribute("fill", "#DFB9EB");
+        с1.setAttribute("points", "2619.89,9623.12 5444.18,7995.47 3534.39,7141.51 771.87,8676.8");
+    }, false);
+    classMebel.addEventListener("mouseout", function( event ) {
+        с1.setAttribute("fill", "#c9c9c9");
+    }, false);
+
+    classCompressory.addEventListener("mouseover", function( event ) {
+        с1.setAttribute("fill", "#DFB9EB");
+        с1.setAttribute("points", "7896.72,9025.5 10148.81,7804.75 7730.42,6785.49 5476.51,7990.19");
+    }, false);
+    classCompressory.addEventListener("mouseout", function( event ) {
+        с1.setAttribute("fill", "#c9c9c9");
+    }, false);
+
+    classZapravkaKondicioner.addEventListener("mouseover", function( event ) {
+        с1.setAttribute("fill", "#DFB9EB");
+        с1.setAttribute("points", "11113.67,10335.16 14204.96,8590.99 10960.09,7321.62 8184.86,9110.41");
+    }, false);
+    classZapravkaKondicioner.addEventListener("mouseout", function( event ) {
+        с1.setAttribute("fill", "#c9c9c9");
+    }, false);
+
+    classDiagnostichOborud.addEventListener("mouseover", function( event ) {
+        с1.setAttribute("fill", "#DFB9EB");
+        с1.setAttribute("points", "10287.15,13407.05 13498.87,11530.86 11130.88,10554.87 8041.76,12317.09");
+    }, false);
+    classDiagnostichOborud.addEventListener("mouseout", function( event ) {
+        с1.setAttribute("fill", "#c9c9c9");
+    }, false);
+
+    classGruzovojeOborudovanje.addEventListener("mouseover", function( event ) {
+        с1.setAttribute("fill", "#DFB9EB");
+        с1.setAttribute("points", "16361.64,7320.06 17318.92,6771.91 14447.57,5437.97 13493.05,5908.03");
+    }, false);
+    classGruzovojeOborudovanje.addEventListener("mouseout", function( event ) {
+        с1.setAttribute("fill", "#c9c9c9");
+    }, false);
+
+
+
+
+    // LINK ON CATEGORY URL
+    classOkrasochnojeOborudovanje.addEventListener("click", function () {
+        location.href = 'https://google.com';
+    });
+
+    classStepenRazvalShozhdenja.addEventListener("click", function () {
+        location.href = 'https://mail.ru';
+    });
+
+    classGruzovojeOborudovanje.addEventListener("click", function () {
+        location.href = 'https://mail.ru';
+    });
+
+    classPodjemnojeIGudroOborud.addEventListener("click", function () {
+        location.href = 'https://vk.com';
+    });
+
+    classSpecInstrument.addEventListener("click", function () {
+        location.href = 'https://vk.com';
+    });
+
+    classCompressory.addEventListener("click", function () {
+        location.href = 'https://yandex.ru';
+    });
+
+    classZapravkaKondicioner.addEventListener("click", function () {
+        location.href = 'https://yandex.ru';
+    });
+
+    classObshegarazhnojeOborud.addEventListener("click", function () {
+        location.href = 'https://yandex.ru';
+    });
+
+    classMebel.addEventListener("click", function () {
+        location.href = 'https://github.com';
+    });
+
+    classShirokomontazhnojeOborud.addEventListener("click", function () {
+        location.href = 'https://github.com';
+    });
+
+    classDiagnostichOborud.addEventListener("click", function () {
+        location.href = 'https://github.com';
+    });
+
+});
