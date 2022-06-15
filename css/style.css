@@ -2176,3 +2176,41 @@ footer {
     top: 15px;
   }
 }
+/* BANNER MAIN ZONE */
+.catalog-3d {
+  max-height: 860px;
+  overflow: hidden;
+}
+.catalog-3d .class-okrasochnoje-oborudovanje,
+.catalog-3d .class-stepen-razval-shozhdenja,
+.catalog-3d .class-gruzovoje-oborudovanje,
+.catalog-3d .class-podjemnoje-i-gudro-oborud,
+.catalog-3d .class-spec-instrument,
+.catalog-3d .class-compressory,
+.catalog-3d .class-zapravka-kondicioner,
+.catalog-3d .class-obshegarazhnoje-oborud,
+.catalog-3d .class-mebel,
+.catalog-3d .class-shirokomontazhnoje-oborud,
+.catalog-3d .class-diagnostich-oborud {
+  cursor: pointer;
+}
+@media screen and (max-width: 750px) {
+  .catalog-3d {
+    max-height: 550px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .catalog-3d {
+    max-height: 450px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .catalog-3d {
+    max-height: 380px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .catalog-3d {
+    max-height: 300px;
+  }
+}
