@@ -283,7 +283,7 @@ window.addEventListener("load", function () {
 
     classShirokomontazhnojeOborud.addEventListener("mouseover", function( event ) {
         с1.setAttribute("fill", "#DFB9EB");
-        с1.setAttribute("points", "7809.65,12249.8 10597.57,10504 5752.09,7995.86 2825.96,9676.59");
+        с1.setAttribute("points", "7809.65,12249.8 11680.65,9977.93 8924.42,8699.77 8136.36,9153.24 5752.09,7995.86 2825.96,9676.59");
     }, false);
     classShirokomontazhnojeOborud.addEventListener("mouseout", function( event ) {
         с1.setAttribute("fill", "#c9c9c9");
@@ -291,7 +291,7 @@ window.addEventListener("load", function () {
 
     classStepenRazvalShozhdenja.addEventListener("mouseover", function( event ) {
         с1.setAttribute("fill", "#DFB9EB");
-        с1.setAttribute("points", "14284.16,8651.49 16331.84,7368.76 13483.44,6000.39 11415.57,7239.46");
+        с1.setAttribute("points", "14284.16,8651.49 16331.84,7368.76 13483.44,6000.39 11203.9,7241.76");
     }, false);
     classStepenRazvalShozhdenja.addEventListener("mouseout", function( event ) {
         с1.setAttribute("fill", "#c9c9c9");
